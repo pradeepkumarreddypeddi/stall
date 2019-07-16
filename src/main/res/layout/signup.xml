@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:background="@drawable/backgroundimage"
+android:orientation="vertical">
+
+<EditText
+    android:id="@+id/editText6"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:ems="100"
+    android:inputType="textPersonName"
+    android:text="Name" />
+
+<EditText
+    android:id="@+id/editText14"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="Roll-number" />
+
+<EditText
+    android:id="@+id/editText10"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textEmailAddress"
+    android:text="Email Address" />
+
+<EditText
+    android:id="@+id/editText12"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="Phone Number" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Password" />
+
+<EditText
+    android:id="@+id/editText9"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPassword" />
+
+<TextView
+    android:id="@+id/textView9"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Confrim Password" />
+
+<EditText
+    android:id="@+id/editText11"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPassword" />
+
+<Button
+    android:id="@+id/button6"
+    style="@android:style/Widget.Material.Light.Button.Small"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:elevation="0dp"
+
+    android:text="SignUp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+</LinearLayout>

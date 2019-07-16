@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.pranaykumarreddy.euphoriaaa">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page2" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".SIGNUP" />
+        <activity
+            android:name=".tday"
+            android:label="@string/title_activity_tday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DJNIGHT"
+            android:label="@string/title_activity_djnight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".stallshomepage"
+            android:label="@string/title_activity_stallshomepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Stallspage"
+            android:label="@string/title_activity_stallspage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Auctionspage"
+            android:label="@string/title_activity_auctionspage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".waterauction" />
+        <activity android:name=".shawarma" />
+        <activity android:name=".Acumen" />
+        <activity android:name=".icecream" />
+        <activity android:name=".Breverages" />
+        <activity android:name=".Barbeque" />
+        <activity android:name=".results"></activity>
+    </application>
+
+</manifest>
